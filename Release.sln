@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27205.2004
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soabel.MailSender.Application", "Soabel.MailSender.Application\Soabel.MailSender.Application.csproj", "{F17162F5-AA26-4038-B32C-D9DCBEAB3B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soabel.MailSender.Presentation", "Soabel.MailSender.Presentation\Soabel.MailSender.Presentation.csproj", "{E8164897-6BC7-41F6-9BE9-027CF9CB05D4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MailSetup", "MailSetup\MailSetup.vdproj", "{833563F3-AD38-46A9-AA79-5C0F24820978}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17162F5-AA26-4038-B32C-D9DCBEAB3B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17162F5-AA26-4038-B32C-D9DCBEAB3B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17162F5-AA26-4038-B32C-D9DCBEAB3B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17162F5-AA26-4038-B32C-D9DCBEAB3B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8164897-6BC7-41F6-9BE9-027CF9CB05D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8164897-6BC7-41F6-9BE9-027CF9CB05D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8164897-6BC7-41F6-9BE9-027CF9CB05D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8164897-6BC7-41F6-9BE9-027CF9CB05D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833563F3-AD38-46A9-AA79-5C0F24820978}.Debug|Any CPU.ActiveCfg = Debug
+		{833563F3-AD38-46A9-AA79-5C0F24820978}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A0871B-F4D6-4C20-8185-CAAEC0FB197D}
+	EndGlobalSection
+EndGlobal
